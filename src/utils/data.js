@@ -16,6 +16,7 @@ export const initialBaseObject = {
 };
 
 export const initialPatches = [
+  { op: "replace", path: "/slug", value: "XYZ" },
   { op: "replace", path: "/tags/5", value: "spbm18" },
   { op: "replace", path: "/tags/4", value: "bengaluru10k-18" },
   { op: "replace", path: "/tags/3", value: "lfc18-wow2" },
